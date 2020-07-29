@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
-static const char *user  = "nobody";
-static const char *group = "nogroup";
+static const char *user  = "josec";
+static const char *group = "wheel";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "black",     /* after initialization */
@@ -12,7 +12,7 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 1;
 
 /* time in seconds to cancel lock with mouse movement */
-static const int timetocancel = 4;
+static const int timetocancel = 2;
 
 /* time in seconds before the monitor shuts down */
 static const int monitortime = 5;
